@@ -1,0 +1,92 @@
+D:\Drive\Sistemas Distribuidos\aulas\covid19>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (covid19)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\Drive\Sistemas Distribuidos\aulas\covid19\package.json:
+
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+D:\Drive\Sistemas Distribuidos\aulas\covid19>npm install --save express body-parser mongoose
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN covid19@1.0.0 No description
+npm WARN covid19@1.0.0 No repository field.
+
++ body-parser@1.19.0
++ mongoose@5.12.3
++ express@4.17.1
+added 81 packages from 125 contributors and audited 81 packages in 11.298s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+D:\Drive\Sistemas Distribuidos\aulas\covid19>node index.js
+Servidor a executar no porto 8081
+
+{
+  _id: 606e0207d8d0f020688bc3a3,
+  data: '29-03-2021',
+  novoscasos: 309,
+  internadosCI: 136,
+  confirmados: 820716
+}
+{
+  _id: 606e0207d8d0f020688bc3a4,
+  data: '30-03-2021',
+  novoscasos: 389,
+  internadosCI: 129,
+  confirmados: 821105
+}
+{
+  _id: 606e0207d8d0f020688bc3a5,
+  data: '31-03-2021',
+  novoscasos: 617,
+  internadosCI: 127,
+  confirmados: 821722
+}
+{
+  _id: 606e0207d8d0f020688bc3a6,
+  data: '01-04-2021',
+  novoscasos: 592,
+  internadosCI: 129,
+  confirmados: 822314
+}
+{
+  _id: 606e0207d8d0f020688bc3a7,
+  data: '02-04-2021',
+  novoscasos: 548,
+  internadosCI: 131,
+  confirmados: 822862
+}
+
